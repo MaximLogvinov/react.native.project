@@ -1,18 +1,20 @@
 {
   "expo": {
-    "name": "reactNativeProject",
-    "description": "A very interesting project.",
-    "slug": "reactNativeProject",
+    "name": "Witcher task manager",
+    "description": "Witcher, all your current tasks here.",
+    "slug": "witcher-task-manger",
     "privacy": "public",
     "sdkVersion": "30.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./src/assets/images/witcher-icon.png",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./src/assets/images/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3d1f18"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,6 +24,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.witcherTaskManager"
     }
   }
 }
